@@ -11,7 +11,7 @@ Few steps to add this plugin into your phonegap project.
 4.	Add the plugin in 'res/xml/config.xml'. eg. <plugin name="JpegCompressor" value="com.compalcomm.JpegCompressor"/>
 5.	It needs permisson 'android.permission.WRITE_EXTERNAL_STORAGE'. Please check your 'AndroidManifest.xml'
 
-### Example
+### Example ###
 ```javascript
 	window.plugins.jpegCompressor.compress(
 		function (return_filename) {
@@ -23,7 +23,7 @@ Few steps to add this plugin into your phonegap project.
 		quality
 	);
 
-### License
+### License ###
 
 The MIT License
 
