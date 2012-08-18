@@ -18,13 +18,13 @@ window.plugins.jpegCompressor.compress(
 	function (return_filename) {
 		alert('Filename is ' + return_filename);
 	}, function () {
-                alert("Jpeg compress fail");
-        },
+		alert("Jpeg compress fail");
+	},
 	fileEntry.name,
 	quality
 );
 
-## License
+### License
 
 The MIT License
 
