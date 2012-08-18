@@ -12,8 +12,7 @@ Few steps to add this plugin into your phonegap project.
 5.	It needs permisson 'android.permission.WRITE_EXTERNAL_STORAGE'. Please check your 'AndroidManifest.xml'
 
 ### Example ###
-```javascript
-	window.plugins.jpegCompressor.compress(
+	`window.plugins.jpegCompressor.compress(
 		function (return_filename) {
 			alert('Filename is ' + return_filename);
 		}, function () {
@@ -21,7 +20,7 @@ Few steps to add this plugin into your phonegap project.
 		},
 		fileEntry.name,
 		quality
-	);
+	);`
 
 ### License ###
 
