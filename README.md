@@ -8,11 +8,11 @@ Few steps to add this plugin into your phonegap project.
 1.	Add the jpegCompressor.js to 'assets/www' folder
 2.	Make a directory under 'src', named 'com/angrystone' then add the JpegCompressor.java to it.
 3.	Import the js file to your index.html. eg. <script src="jpegCompressor.js"></script>
-4.	Add the plugin in 'res/xml/config.xml'. eg. <plugin name="JpegCompressor" value="com.compalcomm.JpegCompressor"/>
+4.	Add the plugin in 'res/xml/config.xml'. eg. <plugin name="JpegCompressor" value="com.angrystone.JpegCompressor"/>
 5.	It needs permisson 'android.permission.WRITE_EXTERNAL_STORAGE'. Please check your 'AndroidManifest.xml'
 
 ### Example ###
-	`window.plugins.jpegCompressor.compress(
+	window.plugins.jpegCompressor.compress(
 		function (return_filename) {
 			alert('Filename is ' + return_filename);
 		}, function () {
@@ -20,7 +20,7 @@ Few steps to add this plugin into your phonegap project.
 		},
 		fileEntry.name,
 		quality
-	);`
+	);
 
 ### License ###
 
