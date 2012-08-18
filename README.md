@@ -13,16 +13,15 @@ Few steps to add this plugin into your phonegap project.
 
 ### Example
 ```javascript
-
-window.plugins.jpegCompressor.compress(
-	function (return_filename) {
-		alert('Filename is ' + return_filename);
-	}, function () {
-		alert("Jpeg compress fail");
-	},
-	fileEntry.name,
-	quality
-);
+	window.plugins.jpegCompressor.compress(
+		function (return_filename) {
+			alert('Filename is ' + return_filename);
+		}, function () {
+			alert("Jpeg compress fail");
+		},
+		fileEntry.name,
+		quality
+	);
 
 ### License
 
